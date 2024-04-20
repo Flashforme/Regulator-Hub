@@ -1,0 +1,683 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.9.60/MA.xsd" major_vers="3" minor_vers="9" stream_vers="60">
+	<Info datetime="2024-04-20T12:32:09" showfile="230402_under_dybet_mh start" />
+	<Macro index="922" name="STOP Timecode">
+		<Appearance Color="ff0000" />
+		<Macroline index="0">
+			<text>Off Timecode 1</text>
+		</Macroline>
+	</Macro>
+	<Macro index="874" name="MLA Export All v3 Fixed" cli="false">
+		<Macroline index="0">
+			<text>ChangeDest /</text>
+		</Macroline>
+		<Macroline index="1">
+			<text>ChangeDest &quot;LiveSetup&quot;</text>
+		</Macroline>
+		<Macroline index="2">
+			<text>Export &quot;Layers&quot; &quot;mla_patch&quot;</text>
+		</Macroline>
+		<Macroline index="3">
+			<text>ChangeDest /</text>
+		</Macroline>
+		<Macroline index="4">
+			<text>Export Preset 0.1 Thru 0.999 &quot;mla_presets_all_0&quot;</text>
+		</Macroline>
+		<Macroline index="5">
+			<text>Export Preset 1.1 Thru 1.999 &quot;mla_presets_dimmer_1&quot;</text>
+		</Macroline>
+		<Macroline index="6">
+			<text>Export Preset 2.1 Thru 2.999 &quot;mla_presets_position_2&quot;</text>
+		</Macroline>
+		<Macroline index="7">
+			<text>Export Preset 3.1 Thru 3.999 &quot;mla_presets_gobo_3&quot;</text>
+		</Macroline>
+		<Macroline index="8">
+			<text>Export Preset 4.1 Thru 4.999 &quot;mla_presets_color_4&quot;</text>
+		</Macroline>
+		<Macroline index="9">
+			<text>Export Preset 5.1 Thru 5.999 &quot;mla_presets_beam_5&quot;</text>
+		</Macroline>
+		<Macroline index="10">
+			<text>Export Preset 6.1 Thru 6.999 &quot;mla_presets_focus_6&quot;</text>
+		</Macroline>
+		<Macroline index="11">
+			<text>Export Preset 7.1 Thru 7.999 &quot;mla_presets_control_7&quot;</text>
+		</Macroline>
+		<Macroline index="12">
+			<text>Export Preset 8.1 Thru 8.999 &quot;mla_presets_shapers_8&quot;</text>
+		</Macroline>
+		<Macroline index="13">
+			<text>Export Preset 9.1 Thru 9.999 &quot;mla_presets_video_9&quot;</text>
+		</Macroline>
+		<Macroline index="14">
+			<text>Export Sequence 1 Thru</text>
+		</Macroline>
+		<Macroline index="15">
+			<text>Export FixtureType 1 &quot;mla_fixture_Type_1&quot;</text>
+		</Macroline>
+		<Macroline index="16">
+			<text>Export FixtureType 2 &quot;mla_fixture_Type_2&quot;</text>
+		</Macroline>
+		<Macroline index="17">
+			<text>Export FixtureType 3 &quot;mla_fixture_Type_3&quot;</text>
+		</Macroline>
+		<Macroline index="18">
+			<text>Export FixtureType 4 &quot;mla_fixture_Type_4&quot;</text>
+		</Macroline>
+		<Macroline index="19">
+			<text>Export FixtureType 5 &quot;mla_fixture_Type_5&quot;</text>
+		</Macroline>
+		<Macroline index="20">
+			<text>Export FixtureType 6 &quot;mla_fixture_Type_6&quot;</text>
+		</Macroline>
+		<Macroline index="21">
+			<text>Export FixtureType 7 &quot;mla_fixture_Type_7&quot;</text>
+		</Macroline>
+		<Macroline index="22">
+			<text>Export FixtureType 8 &quot;mla_fixture_Type_8&quot;</text>
+		</Macroline>
+		<Macroline index="23">
+			<text>Export FixtureType 9 &quot;mla_fixture_Type_9&quot;</text>
+		</Macroline>
+		<Macroline index="24">
+			<text>Export FixtureType 10 &quot;mla_fixture_Type_10&quot;</text>
+		</Macroline>
+		<Macroline index="25">
+			<text>Export FixtureType 11 &quot;mla_fixture_Type_11&quot;</text>
+		</Macroline>
+		<Macroline index="26">
+			<text>Export FixtureType 12 &quot;mla_fixture_Type_12&quot;</text>
+		</Macroline>
+		<Macroline index="27">
+			<text>Export FixtureType 13 &quot;mla_fixture_Type_13&quot;</text>
+		</Macroline>
+		<Macroline index="28">
+			<text>Export FixtureType 14 &quot;mla_fixture_Type_14&quot;</text>
+		</Macroline>
+		<Macroline index="29">
+			<text>Export FixtureType 15 &quot;mla_fixture_Type_15&quot;</text>
+		</Macroline>
+		<Macroline index="30">
+			<text>Export FixtureType 16 &quot;mla_fixture_Type_16&quot;</text>
+		</Macroline>
+		<Macroline index="31">
+			<text>Export FixtureType 17 &quot;mla_fixture_Type_17&quot;</text>
+		</Macroline>
+		<Macroline index="32">
+			<text>Export FixtureType 18 &quot;mla_fixture_Type_18&quot;</text>
+		</Macroline>
+		<Macroline index="33">
+			<text>Export FixtureType 19 &quot;mla_fixture_Type_19&quot;</text>
+		</Macroline>
+		<Macroline index="34">
+			<text>Export FixtureType 20 &quot;mla_fixture_Type_20&quot;</text>
+		</Macroline>
+		<Macroline index="35">
+			<text>Export FixtureType 21 &quot;mla_fixture_Type_21&quot;</text>
+		</Macroline>
+		<Macroline index="36">
+			<text>Export FixtureType 22 &quot;mla_fixture_Type_22&quot;</text>
+		</Macroline>
+		<Macroline index="37">
+			<text>Export FixtureType 23 &quot;mla_fixture_Type_23&quot;</text>
+		</Macroline>
+		<Macroline index="38">
+			<text>Export FixtureType 24 &quot;mla_fixture_Type_24&quot;</text>
+		</Macroline>
+		<Macroline index="39">
+			<text>Export FixtureType 25 &quot;mla_fixture_Type_25&quot;</text>
+		</Macroline>
+		<Macroline index="40">
+			<text>Export FixtureType 26 &quot;mla_fixture_Type_26&quot;</text>
+		</Macroline>
+		<Macroline index="41">
+			<text>Export FixtureType 27 &quot;mla_fixture_Type_27&quot;</text>
+		</Macroline>
+		<Macroline index="42">
+			<text>Export FixtureType 28 &quot;mla_fixture_Type_28&quot;</text>
+		</Macroline>
+		<Macroline index="43">
+			<text>Export FixtureType 29 &quot;mla_fixture_Type_29&quot;</text>
+		</Macroline>
+		<Macroline index="44">
+			<text>Export FixtureType 30 &quot;mla_fixture_Type_30&quot;</text>
+		</Macroline>
+		<Macroline index="45">
+			<text>Export FixtureType 31 &quot;mla_fixture_Type_31&quot;</text>
+		</Macroline>
+		<Macroline index="46">
+			<text>Export FixtureType 32 &quot;mla_fixture_Type_32&quot;</text>
+		</Macroline>
+		<Macroline index="47">
+			<text>Export FixtureType 33 &quot;mla_fixture_Type_33&quot;</text>
+		</Macroline>
+		<Macroline index="48">
+			<text>Export FixtureType 34 &quot;mla_fixture_Type_34&quot;</text>
+		</Macroline>
+		<Macroline index="49">
+			<text>Export FixtureType 35 &quot;mla_fixture_Type_35&quot;</text>
+		</Macroline>
+		<Macroline index="50">
+			<text>Export FixtureType 36 &quot;mla_fixture_Type_36&quot;</text>
+		</Macroline>
+		<Macroline index="51">
+			<text>Export FixtureType 37 &quot;mla_fixture_Type_37&quot;</text>
+		</Macroline>
+		<Macroline index="52">
+			<text>Export FixtureType 38 &quot;mla_fixture_Type_38&quot;</text>
+		</Macroline>
+		<Macroline index="53">
+			<text>Export FixtureType 39 &quot;mla_fixture_Type_39&quot;</text>
+		</Macroline>
+		<Macroline index="54">
+			<text>Export FixtureType 40 &quot;mla_fixture_Type_40&quot;</text>
+		</Macroline>
+		<Macroline index="55">
+			<text>Export FixtureType 41 &quot;mla_fixture_Type_41&quot;</text>
+		</Macroline>
+		<Macroline index="56">
+			<text>Export FixtureType 42 &quot;mla_fixture_Type_42&quot;</text>
+		</Macroline>
+		<Macroline index="57">
+			<text>Export FixtureType 43 &quot;mla_fixture_Type_43&quot;</text>
+		</Macroline>
+		<Macroline index="58">
+			<text>Export FixtureType 44 &quot;mla_fixture_Type_44&quot;</text>
+		</Macroline>
+		<Macroline index="59">
+			<text>Export FixtureType 45 &quot;mla_fixture_Type_45&quot;</text>
+		</Macroline>
+		<Macroline index="60">
+			<text>Export FixtureType 46 &quot;mla_fixture_Type_46&quot;</text>
+		</Macroline>
+		<Macroline index="61">
+			<text>Export FixtureType 47 &quot;mla_fixture_Type_47&quot;</text>
+		</Macroline>
+		<Macroline index="62">
+			<text>Export FixtureType 48 &quot;mla_fixture_Type_48&quot;</text>
+		</Macroline>
+		<Macroline index="63">
+			<text>Export FixtureType 49 &quot;mla_fixture_Type_49&quot;</text>
+		</Macroline>
+		<Macroline index="64">
+			<text>Export FixtureType 50 &quot;mla_fixture_Type_50&quot;</text>
+		</Macroline>
+		<Macroline index="65">
+			<text>Export FixtureType 51 &quot;mla_fixture_Type_51&quot;</text>
+		</Macroline>
+		<Macroline index="66">
+			<text>Export FixtureType 52 &quot;mla_fixture_Type_52&quot;</text>
+		</Macroline>
+		<Macroline index="67">
+			<text>Export FixtureType 53 &quot;mla_fixture_Type_53&quot;</text>
+		</Macroline>
+		<Macroline index="68">
+			<text>Export FixtureType 54 &quot;mla_fixture_Type_54&quot;</text>
+		</Macroline>
+		<Macroline index="69">
+			<text>Export FixtureType 55 &quot;mla_fixture_Type_55&quot;</text>
+		</Macroline>
+		<Macroline index="70">
+			<text>Export FixtureType 56 &quot;mla_fixture_Type_56&quot;</text>
+		</Macroline>
+		<Macroline index="71">
+			<text>Export FixtureType 57 &quot;mla_fixture_Type_57&quot;</text>
+		</Macroline>
+		<Macroline index="72">
+			<text>Export FixtureType 58 &quot;mla_fixture_Type_58&quot;</text>
+		</Macroline>
+		<Macroline index="73">
+			<text>Export FixtureType 59 &quot;mla_fixture_Type_59&quot;</text>
+		</Macroline>
+		<Macroline index="74">
+			<text>Export FixtureType 60 &quot;mla_fixture_Type_60&quot;</text>
+		</Macroline>
+		<Macroline index="75">
+			<text>Export Effect 1 Thru 999 &quot;mla_effects&quot;</text>
+		</Macroline>
+		<Macroline index="76">
+			<text>Export Timecode 1 Thru 999 &quot;mla_timecode&quot;</text>
+		</Macroline>
+		<Macroline index="77">
+			<text>Export Group 1 Thru 999 &quot;mla_group&quot;</text>
+		</Macroline>
+		<Macroline index="78">
+			<text>Export Form 1 Thru 999 &quot;mla_form&quot;</text>
+		</Macroline>
+	</Macro>
+	<Macro index="879" name="LD Give Optimized">
+		<Macroline index="0" delay="0.3">
+			<text>PresetType 4</text>
+			<info>Activates color preset type</info>
+		</Macroline>
+		<Macroline index="1" delay="0.3">
+			<text>PresetType 4</text>
+			<info>Confirm color preset type selection</info>
+		</Macroline>
+		<Macroline index="2" delay="0.3">
+			<text>World 5</text>
+			<info>Color placeholder</info>
+		</Macroline>
+		<Macroline index="3" delay="0.2">
+			<text>Store World 17 /o</text>
+			<info>Designer selective world/Overwrites world store</info>
+		</Macroline>
+		<Macroline index="4" delay="0.3">
+			<text>RemoteCommand 192.168.100.16 &quot;login colormixer&quot;</text>
+			<info>Station 192.168.100.16 Logs into colormix profile</info>
+		</Macroline>
+		<Macroline index="5" delay="0.3">
+			<text>RemoteCommand 192.168.100.16 &quot;World 17&quot;</text>
+			<info>Station 192.168.100.16 in selective world</info>
+		</Macroline>
+		<Macroline index="6" delay="0.3">
+			<text>RemoteCommand 192.168.100.16 &quot;Fixture 1 t&quot;</text>
+			<info>Station 192.168.100.16 Selects fixtures for colormix</info>
+		</Macroline>
+		<Macroline index="7" delay="0.2">
+			<text>World 1</text>
+			<info>Console resets back to full world</info>
+		</Macroline>
+		<Macroline index="8" delay="0.3">
+			<text>Park PresetType 1</text>
+			<info>Parks intensity at last value</info>
+		</Macroline>
+	</Macro>
+	<Macro index="880" name="LD TAKE Optimized">
+		<Macroline index="0" delay="0.3">
+			<text>ClearAll</text>
+			<info>Clean programmer</info>
+		</Macroline>
+		<Macroline index="1" delay="0.3">
+			<text>World 17</text>
+			<info>Goes into designer world</info>
+		</Macroline>
+		<Macroline index="2" delay="0.3">
+			<text>RemoteCommand 192.168.100.16 &quot;Clear&quot;</text>
+			<info>Clear once designer</info>
+		</Macroline>
+		<Macroline index="3" delay="0.3">
+			<text>Fixture 1 Thru</text>
+			<info>Selects all fixtures in world 17</info>
+		</Macroline>
+		<Macroline index="4" delay="0.3">
+			<text>PresetType 4</text>
+			<info>Checks Color in programmer</info>
+		</Macroline>
+		<Macroline index="5" delay="0.3">
+			<text>PresetType 4</text>
+			<info>Activates attributes in programmer</info>
+		</Macroline>
+		<Macroline index="6" delay="0.3">
+			<text>World 1</text>
+			<info>Back in regulator world</info>
+		</Macroline>
+		<Macroline index="7" delay="0.3">
+			<text>Unpark PresetType 1</text>
+			<info>Releases color mixed fixture intensity</info>
+		</Macroline>
+		<Macroline index="8" delay="0.3">
+			<text>RemoteCommand 192.168.100.16 &quot;clearall&quot;</text>
+			<info>Clears out programmer on designer</info>
+		</Macroline>
+		<Macroline index="9" delay="0.3">
+			<text>RemoteCommand 192.168.100.16 &quot;Login designer&quot;</text>
+			<info>Back to designer profile</info>
+		</Macroline>
+	</Macro>
+	<Macro index="881" name="IfProg">
+		<Macroline index="0">
+			<text>IfProg</text>
+		</Macroline>
+	</Macro>
+	<Macro index="882" name="Cue hopper">
+		<Macroline index="0">
+			<text>Goto Cue (Cue number) Fade 0</text>
+		</Macroline>
+	</Macro>
+	<Macro index="883" name="Clear all">
+		<Macroline index="0">
+			<text>ClearAll</text>
+		</Macroline>
+	</Macro>
+	<Macro index="884" name="Nicky page">
+		<Macroline index="0">
+			<text>ButtonPage 4</text>
+		</Macroline>
+	</Macro>
+	<Macro index="885" name="Store Preset">
+		<Macroline index="0" delay="0.1">
+			<text>Filter 8</text>
+		</Macroline>
+		<Macroline index="1" delay="0.1">
+			<text>Store @</text>
+		</Macroline>
+	</Macro>
+	<Macro index="886" name="Colour Grab">
+		<Macroline index="0">
+			<text>At Fixture (Source) If PresetType 4</text>
+		</Macroline>
+	</Macro>
+	<Macro index="887" name="Load cue">
+		<Macroline index="0">
+			<text>Load Cue (Load which cue?)</text>
+		</Macroline>
+	</Macro>
+	<Macro index="888" name="Sal op">
+		<Appearance Color="26ff00" />
+		<Macroline index="0">
+			<text>Executor 1.4 At 100 Fade 7</text>
+		</Macroline>
+	</Macro>
+	<Macro index="889" name="Sal 50">
+		<Appearance Color="ebb80a" />
+		<Macroline index="0">
+			<text>Executor 1.4 At 50 Fade 7</text>
+		</Macroline>
+	</Macro>
+	<Macro index="890" name="Sal Ned">
+		<Appearance Color="ff0003" />
+		<Macroline index="0">
+			<text>Executor 1.4 At 0 Fade 7</text>
+		</Macroline>
+	</Macro>
+	<Macro index="891" name="Pan verter">
+		<Appearance Color="ffa01a" />
+		<Macroline index="0">
+			<text>Attribute &quot;pan&quot; At *-1</text>
+		</Macroline>
+	</Macro>
+	<Macro index="892" name="At Fixture">
+		<Appearance Color="650f66" />
+		<Macroline index="0">
+			<text>At Fixture (Which)</text>
+		</Macroline>
+	</Macro>
+	<Macro index="893" name="Tilt verter">
+		<Appearance Color="ffd671" />
+		<Macroline index="0">
+			<text>Attribute &quot;Tilt&quot; At *-1</text>
+		</Macroline>
+	</Macro>
+	<Macro index="894" name="RED">
+		<Appearance Color="ff0003" />
+		<Macroline index="0">
+			<text>Attribute &quot;colorrgb1&quot; At (Value)</text>
+		</Macroline>
+	</Macro>
+	<Macro index="895" name="GREEN">
+		<Appearance Color="00ff46" />
+		<Macroline index="0">
+			<text>Attribute &quot;colorrgb2&quot; At (Value)</text>
+		</Macroline>
+	</Macro>
+	<Macro index="896" name="BLUE">
+		<Appearance Color="0400ff" />
+		<Macroline index="0">
+			<text>Attribute &quot;colorrgb3&quot; At (Value)</text>
+		</Macroline>
+	</Macro>
+	<Macro index="897" name="CYAN">
+		<Appearance Color="00ecff" />
+		<Macroline index="0">
+			<text>Attribute &quot;cyanminimum&quot; At (Value)</text>
+		</Macroline>
+	</Macro>
+	<Macro index="898" name="MAGENTA">
+		<Appearance Color="ff00f9" />
+		<Macroline index="0">
+			<text>Attribute &quot;Magentaminimum&quot; At (Value)</text>
+		</Macroline>
+	</Macro>
+	<Macro index="899" name="YELLOW">
+		<Appearance Color="fff300" />
+		<Macroline index="0">
+			<text>Attribute &quot;yellowminimum&quot; At (Value)</text>
+		</Macroline>
+	</Macro>
+	<Macro index="900" name="CTO">
+		<Appearance Color="ffcc7c" />
+		<Macroline index="0">
+			<text>Attribute &quot;CTO&quot; At (Value)</text>
+		</Macroline>
+	</Macro>
+	<Macro index="901" name="Off selc">
+		<Appearance Color="3a0d80" />
+		<Macroline index="0">
+			<text>Off Selection</text>
+		</Macroline>
+	</Macro>
+	<Macro index="902" name="Colour Grab">
+		<Macroline index="0">
+			<text>At Fixture (Source) If PresetType 4</text>
+		</Macroline>
+	</Macro>
+	<Macro index="903" name="Relay store">
+		<Macroline index="0">
+			<text>Store Group 968 /m</text>
+		</Macroline>
+	</Macro>
+	<Macro index="904" name="Store Preset">
+		<Appearance Color="03be00" />
+		<Macroline index="0" delay="0.1">
+			<text>Filter 8</text>
+		</Macroline>
+		<Macroline index="1" delay="0.1">
+			<text>Store @</text>
+		</Macroline>
+	</Macro>
+	<Macro index="905" name="Clear all">
+		<Macroline index="0">
+			<text>ClearAll</text>
+		</Macroline>
+	</Macro>
+	<Macro index="906" name="Cue hopper">
+		<Macroline index="0">
+			<text>Goto Cue (Cue number) Fade 0</text>
+		</Macroline>
+	</Macro>
+	<Macro index="907" name="IfProg">
+		<Appearance Color="1a5a80" />
+		<Macroline index="0">
+			<text>IfProg</text>
+		</Macroline>
+	</Macro>
+	<Macro index="908" name="LD Give Optimized">
+		<Macroline index="0" delay="0.3">
+			<text>PresetType 4</text>
+			<info>Activates color preset type</info>
+		</Macroline>
+		<Macroline index="1" delay="0.3">
+			<text>PresetType 4</text>
+			<info>Confirm color preset type selection</info>
+		</Macroline>
+		<Macroline index="2" delay="0.3">
+			<text>World 5</text>
+			<info>Color placeholder</info>
+		</Macroline>
+		<Macroline index="3" delay="0.2">
+			<text>Store World 17 /o</text>
+			<info>Designer selective world/Overwrites world store</info>
+		</Macroline>
+		<Macroline index="4" delay="0.3">
+			<text>RemoteCommand 192.168.100.16 &quot;login colormixer&quot;</text>
+			<info>Station 192.168.100.16 Logs into colormix profile</info>
+		</Macroline>
+		<Macroline index="5" delay="0.3">
+			<text>RemoteCommand 192.168.100.16 &quot;World 17&quot;</text>
+			<info>Station 192.168.100.16 in selective world</info>
+		</Macroline>
+		<Macroline index="6" delay="0.3">
+			<text>RemoteCommand 192.168.100.16 &quot;Fixture 1 t&quot;</text>
+			<info>Station 192.168.100.16 Selects fixtures for colormix</info>
+		</Macroline>
+		<Macroline index="7" delay="0.2">
+			<text>World 1</text>
+			<info>Console resets back to full world</info>
+		</Macroline>
+		<Macroline index="8" delay="0.3">
+			<text>Park PresetType 1 Thru 3 + 5 Thru 8</text>
+			<info>Parks intensity at last value</info>
+		</Macroline>
+	</Macro>
+	<Macro index="909" name="LD TAKE Optimized">
+		<Macroline index="0" delay="0.3">
+			<text>ClearAll</text>
+			<info>Clean programmer</info>
+		</Macroline>
+		<Macroline index="1" delay="0.3">
+			<text>World 17</text>
+			<info>Goes into designer world</info>
+		</Macroline>
+		<Macroline index="2" delay="0.3">
+			<text>RemoteCommand 192.168.100.16 &quot;Clear&quot;</text>
+			<info>Clear once designer</info>
+		</Macroline>
+		<Macroline index="3" delay="0.3">
+			<text>Fixture 1 Thru</text>
+			<info>Selects all fixtures in world 17</info>
+		</Macroline>
+		<Macroline index="4" delay="0.3">
+			<text>PresetType 4</text>
+			<info>Checks Color in programmer</info>
+		</Macroline>
+		<Macroline index="5" delay="0.3">
+			<text>PresetType 4</text>
+			<info>Activates attributes in programmer</info>
+		</Macroline>
+		<Macroline index="6" delay="0.3">
+			<text>World 1</text>
+			<info>Back in regulator world</info>
+		</Macroline>
+		<Macroline index="7" delay="0.3">
+			<text>Unpark PresetType 1 Thru 8</text>
+			<info>Releases color mixed fixture intensity</info>
+		</Macroline>
+		<Macroline index="8" delay="0.3">
+			<text>RemoteCommand 192.168.100.16 &quot;clearall&quot;</text>
+			<info>Clears out programmer on designer</info>
+		</Macroline>
+		<Macroline index="9" delay="0.3">
+			<text>RemoteCommand 192.168.100.16 &quot;Login designer&quot;</text>
+			<info>Back to designer profile</info>
+		</Macroline>
+	</Macro>
+	<Macro index="910" name="Part Builder">
+		<Macroline index="0" delay="0.2">
+			<text>Store Cue $selectedexeccue Part (Part number)</text>
+		</Macroline>
+		<Macroline index="1" delay="0.2">
+			<text>Assign Fade (Fadein) Cue $selectedexeccue Part (Part number)</text>
+		</Macroline>
+		<Macroline index="2" delay="0.2">
+			<text>Label Cue $selectedexeccue Part (Part number)</text>
+		</Macroline>
+	</Macro>
+	<Macro index="911" name="Cue builder">
+		<Macroline index="0" delay="0.2">
+			<text>Store Cue (Cue number)</text>
+		</Macroline>
+		<Macroline index="1" delay="0.2">
+			<text>&gt;&gt;&gt;</text>
+		</Macroline>
+		<Macroline index="2" delay="0.2">
+			<text>Assign Fade (Fade In) Cue $selectedexeccue</text>
+		</Macroline>
+		<Macroline index="3" delay="0.2">
+			<text>Assign OutFade (Fade out) Cue $selectedexeccue</text>
+		</Macroline>
+		<Macroline index="4" delay="0.2">
+			<text>Label Cue $selectedexeccue</text>
+		</Macroline>
+	</Macro>
+	<Macro index="912" name="Store Preset#2">
+		<Appearance Color="03be00" />
+		<Macroline index="0" delay="0.1">
+			<text>Filter 8</text>
+		</Macroline>
+		<Macroline index="1" delay="0.1">
+			<text>Store Preset 0.(Preset number)</text>
+		</Macroline>
+	</Macro>
+	<Macro index="913" name="Nodelys blinker">
+		<Macroline index="0" delay="0.5">
+			<text>Fixture 5000</text>
+		</Macroline>
+		<Macroline index="1" delay="0.5">
+			<text>At 100</text>
+		</Macroline>
+		<Macroline index="2" delay="0.5">
+			<text>At 60</text>
+		</Macroline>
+		<Macroline index="3" delay="0.5">
+			<text>At 100</text>
+		</Macroline>
+		<Macroline index="4" delay="0.5">
+			<text>At 60</text>
+		</Macroline>
+		<Macroline index="5" delay="0.5">
+			<text>ClearAll</text>
+		</Macroline>
+	</Macro>
+	<Macro index="914" name="Value replacer in bulk">
+		<Macroline index="0">
+			<text>Replace Attribute (Function to change-Remember &quot; &quot;) At 0 Thru 100 With (Default value) If Preset 0.(First_Preset) Thru 0.(Last_Preset)</text>
+		</Macroline>
+	</Macro>
+	<Macro index="915" name="Value replacer in bulk FIXTURE ORIENTATED">
+		<Macroline index="0">
+			<text>Replace Fixture (Fixture to edit) Attribute (Function to change-Remember &quot; &quot;) At 0 Thru 100 With (Default value) If Preset 0.(First_Preset) Thru 0.(Last_Preset)</text>
+		</Macroline>
+	</Macro>
+	<Macro index="916" name="Boom cloner">
+		<Macroline index="0">
+			<text>Clone Channel (10,000 number) At (Original boom)</text>
+		</Macroline>
+	</Macro>
+	<Macro index="917" name="Rate1">
+		<Appearance Color="1910be" />
+		<Macroline index="0">
+			<text>Rate1 SpecialMaster 1.5</text>
+		</Macroline>
+	</Macro>
+	<Macro index="918" name="Indstilling">
+		<Appearance Color="48b73c" />
+		<Macroline index="0">
+			<text>Goto Cue (Indstilling) Executor 1.12</text>
+		</Macroline>
+	</Macro>
+	<Macro index="919" name="Network Node Info">
+		<Macroline index="0">
+			<text>Menu commandlineresponse</text>
+			<info>Opens commandline feedback view</info>
+		</Macroline>
+		<Macroline index="1">
+			<text>NetworkNodeInfo</text>
+			<info>Lists network node info (2 port / 4 port nodes)</info>
+		</Macroline>
+	</Macro>
+	<Macro index="920">
+		<Macroline index="0" delay="0.1">
+			<text>InviteStation 192.168.100.12</text>
+		</Macroline>
+		<Macroline index="1" delay="0.1">
+			<text>InviteStation 192.168.100.13</text>
+		</Macroline>
+		<Macroline index="2" delay="0.1">
+			<text>InviteStation 192.168.100.14</text>
+		</Macroline>
+		<Macroline index="3" delay="0.1">
+			<text>InviteStation 192.168.100.16</text>
+		</Macroline>
+		<Macroline index="4" delay="0.1">
+			<text>InviteStation 192.168.100.101</text>
+		</Macroline>
+	</Macro>
+	<Macro index="921" name="Playback Timecode">
+		<Appearance Color="008000" />
+		<Macroline index="0">
+			<text>Go Timecode 1</text>
+		</Macroline>
+	</Macro>
+</MA>
