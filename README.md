@@ -1,1 +1,1 @@
-// INTERAL USE KGL THEATER ONLY! //
+Mass repository for MA2/3 software code/fixes/Workarounds etc.
