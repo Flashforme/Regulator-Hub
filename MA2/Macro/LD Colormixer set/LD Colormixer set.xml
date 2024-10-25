@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.9.60/MA.xsd" major_vers="3" minor_vers="9" stream_vers="60">
+	<Info datetime="2024-10-25T08:06:35" showfile="billy eliot 241021_stagemontage" />
+	<Macro index="1" name="LD Give Optimized">
+		<Macroline index="0" delay="0.3">
+			<text>PresetType 4</text>
+			<info>Activates color preset type</info>
+		</Macroline>
+		<Macroline index="1" delay="0.3">
+			<text>PresetType 4</text>
+			<info>Confirm color preset type selection</info>
+		</Macroline>
+		<Macroline index="2" delay="0.3">
+			<text>World 5</text>
+			<info>Color placeholder</info>
+		</Macroline>
+		<Macroline index="3" delay="0.2">
+			<text>Store World 4 /o</text>
+			<info>Designer selective world/Overwrites world store</info>
+		</Macroline>
+		<Macroline index="4" delay="0.3">
+			<text>RemoteCommand $DesignerIP &quot;login colormixer&quot;</text>
+			<info>Designer station variable assigned Logs into colormix profile</info>
+		</Macroline>
+		<Macroline index="5" delay="0.3">
+			<text>RemoteCommand $DesignerIP &quot;World 4&quot;</text>
+			<info>Designer station variable assigned in selective world</info>
+		</Macroline>
+		<Macroline index="6" delay="0.3">
+			<text>RemoteCommand $DesignerIP &quot;Fixture 1 t&quot;</text>
+			<info>Designer station variable assigned Selects fixtures for colormix</info>
+		</Macroline>
+		<Macroline index="7" delay="0.2">
+			<text>World 1</text>
+			<info>Console resets back to full world</info>
+		</Macroline>
+		<Macroline index="8" delay="0.3">
+			<text>Park PresetType 1 Thru 3 + 5 Thru 8</text>
+			<info>Parks all except color</info>
+		</Macroline>
+	</Macro>
+	<Macro index="2" name="LD TAKE Optimized">
+		<Macroline index="0" delay="0.3">
+			<text>ClearAll</text>
+			<info>Clean programmer</info>
+		</Macroline>
+		<Macroline index="1" delay="0.3">
+			<text>World 4</text>
+			<info>Goes into designer world</info>
+		</Macroline>
+		<Macroline index="2" delay="0.3">
+			<text>RemoteCommand $DesignerIP &quot;Clear&quot;</text>
+			<info>Clear once designer</info>
+		</Macroline>
+		<Macroline index="3" delay="0.3">
+			<text>Fixture 1 Thru</text>
+			<info>Selects all fixtures in world 17</info>
+		</Macroline>
+		<Macroline index="4" delay="0.3">
+			<text>PresetType 4</text>
+			<info>Checks Color in programmer</info>
+		</Macroline>
+		<Macroline index="5" delay="0.3">
+			<text>PresetType 4</text>
+			<info>Activates attributes in programmer</info>
+		</Macroline>
+		<Macroline index="6" delay="0.3">
+			<text>World 1</text>
+			<info>Back in regulator world</info>
+		</Macroline>
+		<Macroline index="7" delay="0.3">
+			<text>Unpark PresetType 1 Thru 8</text>
+			<info>Releases color mixed fixture intensity</info>
+		</Macroline>
+		<Macroline index="8" delay="0.3">
+			<text>RemoteCommand $DesignerIP &quot;clearall&quot;</text>
+			<info>Clears out programmer on designer</info>
+		</Macroline>
+		<Macroline index="9" delay="0.3">
+			<text>RemoteCommand $DesignerIP &quot;Login designer&quot;</text>
+			<info>Back to designer profile</info>
+		</Macroline>
+	</Macro>
+	<Macro index="3" name="// Assign Design //">
+		<Macroline index="0">
+			<text>SetVar $DesignerIP = 192.168.100.(IP)</text>
+		</Macroline>
+		<Macroline index="1" delay="0.3">
+			<text>Message &quot;Designer IP is now:&quot;</text>
+		</Macroline>
+		<Macroline index="2" delay="0.3">
+			<text>Message $DesignerIP</text>
+		</Macroline>
+	</Macro>
+</MA>
