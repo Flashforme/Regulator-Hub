@@ -1,0 +1,34 @@
+-- TriggerType=Key
+-- TriggerKey=8
+
+
+
+
+-- This is an example of how you can renumber and change fixtures types
+
+channelCount = PresetDocView:GetChannelCount()
+
+if channelCount > 0 then
+	PresetDocView:DispatchAction("Select First Channel")
+	currentChannel = 1
+	while currentChannel <= channelCount do
+		channelInfo = PresetInfo:GetSelectedChannel()
+		chChan = channelInfo.ChannelNumber
+		chFix = channelInfo.FixtureNumber
+		chType = channelInfo.FixtureType
+		chCue = channelInfo.Cue
+
+		if chChan == 1 then -- This the original channel number ( you could use chFix for fixture number)
+			channelInfo.ChannelNumber = 11 -- This is the new channel number.
+
+		elseif chChan == 2 then
+			channelInfo.ChannelNumber = 12
+		
+		end
+		
+		PresetInfo:SavePreset(channelInfo)
+		PresetDocView:DispatchAction("Select Next Channel")
+		currentChannel = currentChannel + 1
+	end
+end
+		
