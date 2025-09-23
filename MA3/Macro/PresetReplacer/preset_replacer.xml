@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<GMA3 DataVersion="2.3.0.4">
+    <Macro Name="PresetReplacer" Guid="D2 30 B5 2C 0C 9B 80 30 68 4F DB 13 B2 C3 08 7B">
+        <MacroLine Guid="D2 30 B5 2C 4E E2 80 30 FE BA 8D 1D 7C 63 EC 7B" Command="ClearAll" Wait="0.100"/>
+        <MacroLine Guid="D2 30 B5 2C 54 E6 80 30 49 33 95 22 73 0D A3 7B" Command="SelectFixtures Preset 21.$PresetStart" Wait="0.100"/>
+        <MacroLine Guid="D2 30 B5 2C E5 E6 80 30 14 B4 BC 27 FB 81 AD 7A" Command="Attribute $AttributeSel At Absolute Decimal8 $NewAttribute" Wait="0.100"/>
+        <MacroLine Guid="D2 30 B5 2C E9 CD 80 30 EC FF E0 CE 73 87 24 03" Command="Store Preset 21.$PresetStart /Merge" Wait="0.100"/>
+        <MacroLine Guid="D2 30 B5 2C D9 E9 80 30 B7 70 88 D3 BC E6 CA 02" Command="ClearAll" Wait="0.100"/>
+        <MacroLine Guid="D2 30 B5 2C 51 F6 80 30 98 E4 42 E2 1C 19 EC 0C" Command="Lua &quot;local c=tonumber(GetVar(UserVars(),&apos;PresetStart&apos;) or &apos;&apos;) local l=tonumber(GetVar(UserVars(),&apos;PresetEnd&apos;) or &apos;&apos;) local s=GetVar(UserVars(),&apos;ReplaceStop&apos;) if c and l and c==l and s then Cmd(&apos;Off Macro &apos; .. s) end&quot;" Wait="0.100"/>
+        <MacroLine Guid="D2 30 B5 2C 98 8D 80 30 6E A1 57 A6 6E 0E D1 3D" Command="SetUserVariable &quot;PresetStart&quot; $PresetStart$PresetAdd"/>
+        <MacroLine Guid="D2 30 B5 2C 08 D1 80 30 63 5D 6A E7 87 F5 3C 0E" Command="Macro &quot;PresetReplacer&quot;" Wait="0.100"/>
+    </Macro>
+</GMA3>

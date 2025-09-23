@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<GMA3 DataVersion="2.3.0.4">
+    <Macro Name="PresetReplacerSetup" Guid="D2 30 B5 2C 00 C2 80 30 D7 4F 99 B6 0C 47 FE 62">
+        <MacroLine Guid="D2 30 B5 2C 1B BD 80 30 6D B9 4B 40 CB 5E DD 62" Command="SetUserVariable &quot;AttributeSel&quot; (&quot;Input your Attribute to replace&quot;)" Wait="0.100"/>
+        <MacroLine Guid="D2 30 B5 2C A3 C6 80 30 38 32 53 45 77 7E 57 6F" Command="SetUserVariable &quot;NewAttribute&quot; (Input your desired attribute value as DMX Decimal Like: 0-255)" Wait="0.100"/>
+        <MacroLine Guid="D2 30 B5 2C A3 F1 80 30 83 B4 7A 4A FB CE 6B 68" Command="SetUserVariable &quot;PresetStart&quot; (Input first preset number)" Wait="0.100"/>
+        <MacroLine Guid="D2 30 B5 2C E9 EA 80 30 4E 2D 02 4F 5F C1 1A 6A" Command="SetUserVariable &quot;PresetEnd&quot; (Input LAST preset number)" Wait="0.100"/>
+        <MacroLine Guid="D2 30 B5 2C BB 8D 80 30 19 A6 2D 54 6A 66 B1 75" Command="SetUserVariable &quot;PresetAdd&quot; 1" Wait="0.100"/>
+        <MacroLine Guid="D2 30 B5 2C AE C0 80 30 51 92 40 98 74 B5 D2 16" Command="SetUserVariable &quot;ReplaceStop&quot; &quot;PresetReplacer&quot;" Wait="0.100"/>
+    </Macro>
+</GMA3>
