@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<GMA3 DataVersion="2.3.0.4">
-    <Macro Name="ReductionSetup" Guid="D2 30 B5 2C 72 AA 80 30 C8 71 CA B0 2B 1D F4 05">
-        <MacroLine Lock="UL" Name="Establish reference" Guid="D2 30 B5 2C 02 88 80 30 5E 63 FD BA 25 12 D1 05" Command="SetUserVariable &quot;Reduction&quot; &quot;ReductionBuddy&quot;" Wait="0.100"/>
-        <MacroLine Lock="UL" Name="Sequence to be altered" Guid="D2 30 B5 2C 12 E0 80 30 F4 5E AC 44 46 79 F7 07" Command="SetUserVariable &quot;ActiveSequence&quot; (Input active sequence no)" Wait="0.100"/>
-        <MacroLine Lock="UL" Name="Percentage adjust" Guid="D2 30 B5 2C CC 91 80 30 4C A0 D3 6B 96 A7 BF 09" Command="SetUserVariable &quot;ReductionPercent&quot; (Input percentage for reduction)" Wait="0.100"/>
-        <MacroLine Lock="UL" Name="Last cue in sequence" Guid="D2 30 B5 2C A0 E6 80 30 59 71 0C 0E 9A B1 EA 11" Command="SetUserVariable &quot;LastCue&quot; (Input last cue number)" Wait="0.100"/>
-    </Macro>
-</GMA3>
