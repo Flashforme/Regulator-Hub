@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<GMA3 DataVersion="2.3.2.0">
+    <Macro Name="MLAGO" Guid="0D 49 20 00 4F 74 1F 7C A5 F2 19 31 FA E9 87 C4" Note="For use to auto photograph function emulated from MA3 console.&#xD;Don&apos;t alter any plugins or macro lines, otherwise system will not work!!">
+        <MacroLine Lock="UL" Name="CueNo" Guid="0D 49 20 00 F4 CB 61 74 D1 DF 7F 1D 05 4B CD C4" Note="Assigns the variable CNO to the current cue no." Command="SetUserVariable &quot;CNO&quot; At Cue Property &quot;no&quot;"/>
+        <MacroLine Lock="UL" Name="Duration" Guid="0D 49 20 00 A5 AA 93 56 1C 51 97 18 17 4B CD C4" Note="Scans current cue duration across parts" Command="Call Plugin &quot;MLAOSCV2&quot;.&quot;MLADURATION&quot;"/>
+        <MacroLine Lock="UL" Name="Photo_1" Guid="0D 49 20 00 BD 03 45 31 67 CA AC 13 E8 74 CD C4" Note="Triggers 1st OSC goto cmd to MLA + Reformats the cue no. to work in SendOSC string" Command="Call Plugin &quot;MLAOSCV2&quot;.&quot;MLAPHOTO&quot;"/>
+        <MacroLine Lock="UL" Name="SetWait" Guid="0D 49 20 00 CD DA 4D 69 B2 43 C4 0E FD 74 CD C4" Note="Uses highest current cue duration, to assign emulated duration to re-go cue in MLA." Command="Set Macro &quot;MLAGO&quot;.&quot;PhotoTime&quot; &quot;Wait&quot; $CDU"/>
+        <MacroLine Lock="UL" Name="AdjustTimer" Guid="0D 49 20 00 6B 7F BD 20 FD C4 DD 09 F1 74 CD C4" Note="For timers, optional" Command="Set Timer &quot;MLA&quot; &quot;CountdownDuration&quot; $CDU"/>
+        <MacroLine Lock="UL" Name="InitiateTimer" Guid="0D 49 20 00 29 80 B7 28 48 3E F5 04 C0 74 CD C4" Note="For timers, optional" Command="Call Timer &quot;MLA&quot;"/>
+        <MacroLine Name="PhotoTime" Guid="0D 49 20 00 78 6E E5 53 7A FD D7 5E 0C CF 5F DD" Note="Placeholder line, only for modular wait time for additional SendOSC cmd" Wait="3.330"/>
+        <MacroLine Lock="UL" Name="Photo_2" Guid="0D 49 20 00 36 44 A6 34 93 B7 02 00 8C 74 CD C4" Note="Triggers 2nd goto cue OSC cmd, to trigger the auto photo in MLA" Command="Call Plugin &quot;MLAOSCV2&quot;.&quot;MLAPHOTO&quot;"/>
+    </Macro>
+</GMA3>

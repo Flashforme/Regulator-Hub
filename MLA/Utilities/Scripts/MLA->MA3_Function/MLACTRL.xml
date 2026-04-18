@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<GMA3 DataVersion="2.3.2.0">
+    <Macro Lock="UL" Name="MLACTRL" Guid="0D 49 20 00 63 C2 84 33 8F AD AF C6 01 4C C0 D3">
+        <MacroLine Name="Terminate" Guid="0D 49 20 00 BA 23 7B 3E A9 4F F6 81 D9 7C 44 D3" Note="Cancels and terminates current cue GO auto photo function" Command="Off Macro &quot;MLAGO&quot;"/>
+        <MacroLine Name="Initiate" Guid="0D 49 20 00 D4 12 81 3B F4 C0 0F 7D 07 84 B1 D0" Note="Re-initialize auto photo function for new current cue." Command="Call Macro &quot;MLAGO&quot;"/>
+    </Macro>
+</GMA3>
